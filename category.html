@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+
+<head>
+<link rel="shortcut icon" href="C:\Users\dig\Desktop\dbase\upload\favicon.ico" />
+<title >Full!Form
+</title>
+<style type="text/css">
+div {position:absolute;
+    left:20px;
+	top:0px;
+	}
+	#box{position:relative;
+	      left:100px;
+		  top:-50px;}
+	.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+
+ 
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+/* Form wrapper styling */
+.form-wrapper {
+    width: 450px;
+    padding: 15px;
+    margin: 150px auto 50px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+ 
+/* Form text input */
+ 
+.form-wrapper input {
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;      
+}
+ 
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+ 
+/* Form submit button */
+.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #A52A2A;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+.form-wrapper button:hover{     
+    background: #e54040;
+}   
+   
+.form-wrapper button:active,
+.form-wrapper button:focus{   
+    background: #c42f2f;
+    outline: 0;   
+}
+ 
+.form-wrapper button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #d83c3c transparent;
+    top: 12px;
+    left: -6px;
+}
+ 
+.form-wrapper button:hover:before{
+    border-right-color: #e54040;
+}
+ 
+.form-wrapper button:focus:before,
+.form-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}      
+ 
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}    
+#feed {position:relative;
+       
+	   top:5300px;}
+		
+p#rb_socialicons img {
+ /* Spinning Social Icons Widget By www.digitalhubinc.com/ */
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+p#rb_socialicons img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}	
+#lside{position:absolute;
+       left:-20px;
+	   top:0px;}	
+ 
+#tabu {position:relative;
+        left:275px;
+		top:50px;}
+.tabs {
+  list-style:none;
+  padding: 0;
+  overflow: hidden;
+}
+.tab {background-color:#32cd32;
+     color:white;
+  display: block;
+  float: left;
+  border:2px solid rgba(0,0,0,.1);
+  padding: 25px;
+}
+.tab:hover{background-color:green;
+     color:white;
+  position: relative;
+  border: 4px solid rgba(0,0,0,.2);
+  border-bottom: none;
+  border-radius: 6px 6px 0px 0px;
+}
+.tab.active {background-color:green;
+     color:white;
+  position: relative;
+  border: 4px solid rgba(0,0,0,.2);
+  border-bottom: none;
+  border-radius: 6px 6px 0px 0px;
+}
+.tab.active::after,
+.tab.active::before {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 0px;
+  width: 999em;
+  border-bottom: 2px solid rgba(0,0,0,.2);
+  pointer-events: none;
+}
+.tab.active::before {
+  right: 100%;
+  margin-right: 2px;
+}
+.tab.active::after {
+  left: 100%;
+  margin-left: 2px;
+}
+
+/* clearfix */
+/* striped background */
+body {
+  font-family: sans-serif;
+  background: hsl(70, 100%, 40%);
+  background-image: linear-gradient(45deg, hsla(0, 100%, 100%, .2) 25%, transparent 25%, transparent 50%, hsla(0, 100%, 100%, .2) 50%, hsla(0, 100%, 100%, .2) 75%, transparent 75%, transparent);
+  background-size: 50px 50px;
+  color: rgba(0,0,0,.6)
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<div id="box">
+<form class="form-wrapper cf">
+        <input type="text" placeholder="Search here..." required>
+        <button id ="Submit" type="submit" >Search</button>
+    </form>   
+</div> 
+<div id="tabu"><ul class="tabs">
+  <li><a class="tab" href="about.html">About</a></li>
+  <li><a class="tab" href="index.html">Home</a></li>
+  <li><a class="active tab" href="category.html">Category</a></li>
+  <li><a class="tab" href="news.html">News</a></li>
+  <li><a class="tab" href="downloads.html">Downloads</a></li>
+  <li><a class="tab" href="images.html">Images</a></li>
+  <li><a class="tab" href="videos.html">Videos</a></li>
+  <li><a class="tab" href="help.html">Help Us</a></li>
+  <li><a class="tab" href="contact.html">Contact</a></li>
+</ul>  </div>
+ 
+<div id="feed"><center><p id="rb_socialicons">
+<hr color="orange"/    ><hr /><hr color="green"/><br />
+   <a href="http://feeds.feedburner.com/digitalhubinc"> <img hieght='80' width='40' src="http://3.bp.blogspot.com/-TbZ1WN850Oc/T-7giv2AoKI/AAAAAAAAEnc/nmipiH-KuBA/s1600/rss.png" onmouseover="this.src='http://2.bp.blogspot.com/-_eBRgblYVKk/UOPk4SdnhTI/AAAAAAAAKms/nGob-1UUl9w/s1600/RSS.png'" onmouseout="this.src='http://3.bp.blogspot.com/-TbZ1WN850Oc/T-7giv2AoKI/AAAAAAAAEnc/nmipiH-KuBA/s1600/rss.png'" alt="Click Me"/> </a><a href="http://facebook.com/digitalhubinc"> <img hieght='100' width='50'src="http://2.bp.blogspot.com/-ftj8_ZkKrEs/T-7gf3ygANI/AAAAAAAAEnI/u5iM_pzTSo0/s1600/facebook.png" onmouseover="this.src='http://1.bp.blogspot.com/--M4D9-aCqHE/UOPk2GQr9fI/AAAAAAAAKl8/GORPGXQdGzg/s1600/Facebook.png'" onmouseout="this.src='http://2.bp.blogspot.com/-ftj8_ZkKrEs/T-7gf3ygANI/AAAAAAAAEnI/u5iM_pzTSo0/s1600/facebook.png'" alt="Click Me"/> </a><a href="http://twitter.com/digitalhubinc"> <img hieght='120' width='60'src="http://3.bp.blogspot.com/-4pMFz4etTDo/T-7gjyTCF1I/AAAAAAAAEnk/joucoMIabdM/s1600/twitter.png" onmouseover="this.src='http://3.bp.blogspot.com/-D26KgebUZZ4/UOPk2mj7FBI/AAAAAAAAKmI/AQXhzlSRn1A/s1600/Twitter.png'" onmouseout="this.src='http://3.bp.blogspot.com/-4pMFz4etTDo/T-7gjyTCF1I/AAAAAAAAEnk/joucoMIabdM/s1600/twitter.png'" alt="Click Me"/> </a><a href="https://plus.google.com/116441114801311321617/"> <img hieght='160' width='80' src="http://1.bp.blogspot.com/-CvKFGBPXaV4/T-7ghKkFOUI/AAAAAAAAEnQ/p8IzDJwZ1PM/s1600/googleplus.png" onmouseover="this.src='http://1.bp.blogspot.com/-WGTyRu8nZt8/UOPk3BsHHCI/AAAAAAAAKmU/iRjYfqspS_M/s1600/Google%2Bplus.png'" onmouseout="this.src='http://1.bp.blogspot.com/-CvKFGBPXaV4/T-7ghKkFOUI/AAAAAAAAEnQ/p8IzDJwZ1PM/s1600/googleplus.png'" alt="Click Me"/> </a><a href="http://pinterest.com/digitalhubinc/"> <img hieght='180' width='90' src="http://1.bp.blogspot.com/-M1g3gOjEG88/T-7ghwKEbpI/AAAAAAAAEnY/9mBemteOBoI/s1600/pinterest.png" onmouseover="this.src='http://3.bp.blogspot.com/-1Wck52otTAk/UOPk37gi31I/AAAAAAAAKmg/TM4Cstlz3AQ/s1600/Pinterest.png'" onmouseout="this.src='http://1.bp.blogspot.com/-M1g3gOjEG88/T-7ghwKEbpI/AAAAAAAAEnY/9mBemteOBoI/s1600/pinterest.png'" alt="Click Me"/> </a><a href="http://youtube.com/windows8tech"> <img hieght='200' width='100'src="http://1.bp.blogspot.com/-x4bG7diYSXQ/T-7gkpwNIdI/AAAAAAAAEns/a2YfKr3dbVA/s1600/youtube.png" onmouseover="this.src='http://4.bp.blogspot.com/-VS1LqbN8Z5U/UOPlCeJBWnI/AAAAAAAAKm4/lKkAvTuKTSo/s1600/Youtube.png'" onmouseout="this.src='http://1.bp.blogspot.com/-x4bG7diYSXQ/T-7gkpwNIdI/AAAAAAAAEns/a2YfKr3dbVA/s1600/youtube.png'" alt="Click Me"/> </a></p></center> 
+
+   </div> 
+   
+   <div id="lside"><img src="lside.jpg" height="5680" width="300"></img><div>
+   <div><img src="ff_yellow.png" height="290" width="420"></img></div>
+ 
+   </body>
+</html>
