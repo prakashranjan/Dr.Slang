@@ -1,0 +1,2 @@
+# Dr.Slang
+We are the most comprehensive directory and search engine for abbreviations and initialism on the Internet . Dr.Slang is a part of SearchBox.com Network to help the Doctors , Nurses and other people related to Medical field . SearchBox.com holds hundreds of thousands of entries and it is maintained and expanded by a small community of passionate IT engineering students . We basically provide a simple search engine for fast access of abbreviations of real world and have a large database which expands daily.
