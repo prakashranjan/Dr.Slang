@@ -377,7 +377,7 @@ $(window).load(function() {
   if ( isset( $_POST['Submit1'] ) ) 
   { $pass=$_POST['password'];
  
- if ($pass=='dragon'){
+ if ($pass=='******'){
 			   echo"  <p style='font-family:Comic Sans MS;'> <h2> ENTER DATA INTO THE DBASE (IN CAPS)</h2></p>
         <fieldset style='
 width:900px;
